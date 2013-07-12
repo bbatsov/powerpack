@@ -19,6 +19,11 @@ Or install it yourself as:
 
     $ gem install powerpack
 
+## Documentation
+
+A listing of the extensions provided by Powerpack is available
+[here](http://rdoc.info/github/bbatsov/powerpack).
+
 ## Usage
 
 To load the entire `powerpack` do:
