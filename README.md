@@ -1,3 +1,6 @@
+[![Gem Version](https://badge.fury.io/rb/powerpack.png)](http://badge.fury.io/rb/powerpack)
+[![Build Status](https://travis-ci.org/bbatsov/powerpack.png?branch=master)](https://travis-ci.org/bbatsov/powerpack)
+
 # Powerpack
 
 Powerpack offers some useful extensions to the standard Ruby classes (kind of like `ActiveSupport`).
