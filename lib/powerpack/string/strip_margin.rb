@@ -5,14 +5,14 @@ unless String.method_defined? :strip_margin
     #
     # @example
     #
-    # code = <<-END.strip_margin('|')
-    #   |def test
-    #   |  some_method
-    #   |  other_method
-    #   |end
-    # END
+    #   code = <<-END.strip_margin('|')
+    #     |def test
+    #     |  some_method
+    #     |  other_method
+    #     |end
+    #   END
     #
-    # => "def\n  some_method\n  \nother_method\nend"
+    #   #=> "def\n  some_method\n  \nother_method\nend"
     def strip_margin(margin_character)
       margin = '\\' + margin_character
       gsub(/^\s+#{margin}/, '')
