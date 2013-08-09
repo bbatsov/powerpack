@@ -22,12 +22,12 @@ Or install it yourself as:
 ## Extensions
 
 * [Hash](http://rdoc.info/github/bbatsov/powerpack/Hash)
-** [#symbolize_keys](http://rdoc.info/github/bbatsov/powerpack/Hash#symbolize_keys-instance_method)
+    * [#symbolize_keys](http://rdoc.info/github/bbatsov/powerpack/Hash#symbolize_keys-instance_method)
 * [String](http://rdoc.info/github/bbatsov/powerpack/String)
-** [#blank?](http://rdoc.info/github/bbatsov/powerpack/String#blank?-instance_method)
-** [#format](http://rdoc.info/github/bbatsov/powerpack/String#format-instance_method)
-** [#strip_indent](http://rdoc.info/github/bbatsov/powerpack/String#strip_indent-instance_method)
-** [#strip_margin](http://rdoc.info/github/bbatsov/powerpack/String#strip_margin-instance_method)
+    * [#blank?](http://rdoc.info/github/bbatsov/powerpack/String#blank?-instance_method)
+    * [#format](http://rdoc.info/github/bbatsov/powerpack/String#format-instance_method)
+    * [#strip_indent](http://rdoc.info/github/bbatsov/powerpack/String#strip_indent-instance_method)
+    * [#strip_margin](http://rdoc.info/github/bbatsov/powerpack/String#strip_margin-instance_method)
 
 ## Documentation
 
