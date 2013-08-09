@@ -3,7 +3,7 @@
 
 # Powerpack
 
-Powerpack offers some useful extensions to the standard Ruby classes (kind of like `ActiveSupport`).
+Powerpack offers some useful extensions to the standard Ruby classes (kind of like `ActiveSupport`, but less ambitious).
 
 ## Installation
 
@@ -18,6 +18,16 @@ And then execute:
 Or install it yourself as:
 
     $ gem install powerpack
+
+## Extensions
+
+* [Hash](http://rdoc.info/github/bbatsov/powerpack/Hash)
+** [#symbolize_keys](http://rdoc.info/github/bbatsov/powerpack/Hash#symbolize_keys-instance_method)
+* [String](http://rdoc.info/github/bbatsov/powerpack/String)
+** [#blank?](http://rdoc.info/github/bbatsov/powerpack/String#blank?-instance_method)
+** [#format](http://rdoc.info/github/bbatsov/powerpack/String#format-instance_method)
+** [#strip_indent](http://rdoc.info/github/bbatsov/powerpack/String#strip_indent-instance_method)
+** [#strip_margin](http://rdoc.info/github/bbatsov/powerpack/String#strip_margin-instance_method)
 
 ## Documentation
 
