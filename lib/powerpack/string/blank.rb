@@ -1,9 +1,9 @@
 unless String.method_defined? :blank?
   class String
-    # Checks whether a string is blank.
+    # Checks whether a string is blank. A string is considered blank if it
+    # is either empty or contains only whitespace characters.
     #
-    # @return [String] `true` is the string is empty or contains only
-    # whitespace, `false` otherwise
+    # @return [Boolean] true is the string is blank, false otherwise
     #
     # @example
     #   ''.blank? #=> true

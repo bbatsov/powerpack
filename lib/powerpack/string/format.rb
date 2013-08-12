@@ -1,6 +1,6 @@
 unless String.method_defined? :format
   class String
-    # A nicer alternative to `Kernel#sprintf` and `String#%`.
+    # A nicer alternative to Kernel#sprintf and String#%.
     #
     # @return [String] the formatted string
     #
