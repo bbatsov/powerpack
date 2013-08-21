@@ -7,7 +7,7 @@ Powerpack offers some useful extensions to the standard Ruby classes (kind of li
 
 ## Installation
 
-Add this line to your application's Gemfile:
+Add this line to your application's `Gemfile` (if you're using `bundler`, that is):
 
     gem 'powerpack'
 
