@@ -23,6 +23,9 @@ Or install it yourself as:
 
 * [Hash](http://rdoc.info/github/bbatsov/powerpack/Hash)
     * [#symbolize_keys](http://rdoc.info/github/bbatsov/powerpack/Hash#symbolize_keys-instance_method)
+* [Numeric](http://rdoc.info/github/bbatsov/powerpack/Numeric)
+    * [#pos?](http://rdoc.info/github/bbatsov/powerpack/Numeric#pos?-instance_method)
+    * [#neg?](http://rdoc.info/github/bbatsov/powerpack/Numeric#neg?-instance_method)
 * [String](http://rdoc.info/github/bbatsov/powerpack/String)
     * [#blank?](http://rdoc.info/github/bbatsov/powerpack/String#blank?-instance_method)
     * [#format](http://rdoc.info/github/bbatsov/powerpack/String#format-instance_method)
