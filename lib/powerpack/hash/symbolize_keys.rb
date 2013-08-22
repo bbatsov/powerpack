@@ -7,7 +7,7 @@ unless Hash.method_defined? :symbolize_keys
     # @example
     #   { 'one' => 1, 'two' => 2 }.symbolize_keys #=> { :one => 1, :two => 2 }
     def symbolize_keys
-      Hash[map { |(k, v)| [k.to_sym, v] }]
+      Hash[map { |(k, v)| [(k.to_sym rescue k), v] }]
     end
   end
 end
