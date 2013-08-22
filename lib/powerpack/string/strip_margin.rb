@@ -13,8 +13,8 @@ unless String.method_defined? :strip_margin
     #   END
     #
     #   #=> "def\n  some_method\n  \nother_method\nend"
-    def strip_margin(margin_character)
-      margin = '\\' + margin_character
+    def strip_margin(margin_characters)
+      margin = Regexp.quote(margin_characters)
       gsub(/^\s+#{margin}/, '')
     end
   end
