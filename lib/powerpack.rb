@@ -5,3 +5,5 @@ require 'powerpack/hash'
 require 'powerpack/numeric'
 
 require 'powerpack/string'
+
+require 'powerpack/array'
