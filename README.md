@@ -21,6 +21,8 @@ Or install it yourself as:
 
 ## Extensions
 
+* [Array](http://rdoc.info/github/bbatsov/powerpack/Array)
+    * [#tail](http://rdoc.info/github/bbatsov/powerpack/Array#tail-instance_method)
 * [Hash](http://rdoc.info/github/bbatsov/powerpack/Hash)
     * [#symbolize_keys](http://rdoc.info/github/bbatsov/powerpack/Hash#symbolize_keys-instance_method)
 * [Numeric](http://rdoc.info/github/bbatsov/powerpack/Numeric)
