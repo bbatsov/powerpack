@@ -35,6 +35,7 @@ Or install it yourself as:
     * [#strip_indent](http://rdoc.info/github/bbatsov/powerpack/String#strip_indent-instance_method)
     * [#strip_margin](http://rdoc.info/github/bbatsov/powerpack/String#strip_margin-instance_method)
     * [#squish](http://rdoc.info/github/bbatsov/powerpack/String#squish-instance_method)
+    * [#squish!](http://rdoc.info/github/bbatsov/powerpack/String#squish!-instance_method)
 
 ## Documentation
 
