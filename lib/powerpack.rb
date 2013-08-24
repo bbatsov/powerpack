@@ -1,5 +1,7 @@
 require 'powerpack/version'
 
+require 'powerpack/enumerable'
+
 require 'powerpack/hash'
 
 require 'powerpack/numeric'
