@@ -9,13 +9,13 @@ unless Enumerable.method_defined? :take_last_while?
     def take_last_while
       return to_enum(:take_last_while) unless block_given?
 
-      array = []
+      result = []
       reverse_each do |elem|
-        return array unless yield(elem)
-        array << elem
+        return result unless yield(elem)
+        result << elem
       end
 
-      array
+      result
     end
   end
 end
