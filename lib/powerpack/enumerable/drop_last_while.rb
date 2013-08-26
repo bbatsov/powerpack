@@ -9,13 +9,13 @@ unless Enumerable.method_defined? :drop_last_while
     def drop_last_while
       return to_enum(:drop_last_while) unless block_given?
 
-      ary = []
+      result = []
       dropping = true
       reverse_each do |obj|
-        ary << obj unless dropping &&= yield(obj)
+        result.unshift(obj) unless dropping &&= yield(obj)
       end
 
-      ary.reverse!
+      result
     end
   end
 end
