@@ -1,7 +1,12 @@
 unless Enumerable.method_defined? :sum
   module Enumerable
-    # Sums up elements of an enum by invoking their + method.
+    # Sums up elements of a collection by invoking their `+` method.
     # Most useful for summing up numbers.
+    #
+    # @param default [Object] an optional default return value if there are no elements.
+    #   It's nil by default.
+    # @return The sum of the elements or the default value if there are no
+    #   elements.
     #
     # @example
     #   [1, 2, 3].sum #=> 6

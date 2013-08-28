@@ -2,6 +2,7 @@ unless Enumerable.method_defined? :drop_last
   module Enumerable
     # Drops the last n elements of an enumerable.
     #
+    # @param n [Fixnum] the number of elements to drop
     # @return [Array] an array containing the remaining elements
     #
     # @example
