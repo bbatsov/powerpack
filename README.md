@@ -22,7 +22,7 @@ Or install it yourself as:
 ## Extensions
 
 * [Array](http://rdoc.info/github/bbatsov/powerpack/Array)
-    * [#init](http://rdoc.info/github/bbatsov/powerpack/Array#init-instance_method)
+    * [#butlast](http://rdoc.info/github/bbatsov/powerpack/Array#butlast-instance_method)
     * [#tail](http://rdoc.info/github/bbatsov/powerpack/Array#tail-instance_method)
 * [Enumerable](http://rdoc.info/github/bbatsov/powerpack/Enumerable)
     * [#drop_last](http://rdoc.info/github/bbatsov/powerpack/Enumerable#drop_last-instance_method)

@@ -1,11 +1,11 @@
 require 'spec_helper'
 
-describe 'Array#init' do
+describe 'Array#butlast' do
   it 'returns an array without the last element' do
-    expect([1, 2, 3].init).to eq([1, 2])
+    expect([1, 2, 3].butlast).to eq([1, 2])
   end
 
   it 'returns [] for empty lists' do
-    expect([].init).to be_empty
+    expect([].butlast).to be_empty
   end
 end
