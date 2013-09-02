@@ -11,8 +11,8 @@ unless Enumerable.method_defined? :frequencies
     #
     #
     def frequencies
-      inject(Hash.new(0)) do |a, e|
-        a.tap { |acc| acc[e] += 1 }
+      each_with_object(Hash.new(0)) do |e, a|
+        a[e] += 1
       end
     end
   end
