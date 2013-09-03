@@ -11,9 +11,7 @@ unless Enumerable.method_defined? :frequencies
     #
     #
     def frequencies
-      each_with_object(Hash.new(0)) do |e, a|
-        a[e] += 1
-      end
+      each_with_object(Hash.new(0)) { |e, a| a[e] += 1 }
     end
   end
 end
