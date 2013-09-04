@@ -27,6 +27,7 @@ Or install it yourself as:
 * [Enumerable](http://rdoc.info/github/bbatsov/powerpack/Enumerable)
     * [#drop_last](http://rdoc.info/github/bbatsov/powerpack/Enumerable#drop_last-instance_method)
     * [#drop_last_while](http://rdoc.info/github/bbatsov/powerpack/Enumerable#drop_last_while-instance_method)
+    * [#exactly?](http://rdoc.info/github/bbatsov/powerpack/Enumerable#exactly?-instance_method)
     * [#frequencies](http://rdoc.info/github/bbatsov/powerpack/Enumerable#frequencies-instance_method)
     * [#several?](http://rdoc.info/github/bbatsov/powerpack/Enumerable#several?-instance_method)
     * [#sum](http://rdoc.info/github/bbatsov/powerpack/Enumerable#sum-instance_method)
