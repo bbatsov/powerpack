@@ -12,7 +12,7 @@ unless Enumerable.method_defined? :take_last_while?
       result = []
       reverse_each do |elem|
         return result unless yield(elem)
-        result << elem
+        result.unshift(elem)
       end
 
       result
