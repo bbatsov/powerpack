@@ -6,6 +6,7 @@ unless Enumerable.method_defined? :exactly?
     # @return [Boolean] true if we get exactly n matches, false otherwise
     #
     # @example
+    #   [1, 2, 3, 4].exactly?(1) { |n| n > 3 } #=> true
     #   [1, 2, 3, 4].exactly?(2, &:even?) #=> true
     #   [1, 1, 3, 3].exactly?(2, &:even?) #=> false
     #
