@@ -14,7 +14,9 @@ unless Enumerable.method_defined? :exactly?
     # This means that nil and false elements will be ignored.
     #
     # @example
-    #   [1, false, nil].exactly? #=> false
+    #   [1, false, nil].exactly?(3) #=> false
+    #   [1, false, nil].exactly?(1) #=> true
+    #   [false, nil].exactly?(0) #=> true
     #   [1, 2, 3].exactly?(3) #=>true
     def exactly?(n)
       found_count = 0
