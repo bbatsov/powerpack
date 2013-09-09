@@ -13,7 +13,7 @@ unless Enumerable.method_defined? :average
     #   [].average #=> nil
     #   [].average(0) #=> 0
     def average(default = nil)
-      coll_size = size
+      coll_size = to_a.size
       coll_size > 0 ? reduce(&:+) / coll_size.to_f : default
     end
   end
