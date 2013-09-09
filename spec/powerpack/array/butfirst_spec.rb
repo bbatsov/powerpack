@@ -1,11 +1,11 @@
 require 'spec_helper'
 
-describe 'Array#tail' do
+describe 'Array#butfirst' do
   it 'returns an array without the first element' do
-    expect([1, 2, 3].tail).to eq([2, 3])
+    expect([1, 2, 3].butfirst).to eq([2, 3])
   end
 
   it 'returns nil for empty lists' do
-    expect([].tail).to be_nil
+    expect([].butfirst).to be_nil
   end
 end

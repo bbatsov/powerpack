@@ -1,2 +1,2 @@
 require_relative 'array/butlast'
-require_relative 'array/tail'
+require_relative 'array/butfirst'

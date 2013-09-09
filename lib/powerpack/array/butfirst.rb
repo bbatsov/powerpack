@@ -1,4 +1,4 @@
-unless Array.method_defined? :tail
+unless Array.method_defined? :butfirst
   class Array
     # Returns a new array rejecting the current one's first element.
     #
@@ -6,9 +6,9 @@ unless Array.method_defined? :tail
     #   array is empty
     #
     # @example
-    #   [1, 2, 3].tail #=> [2, 3]
-    #   [].tail #=> nil
-    def tail
+    #   [1, 2, 3].butfirst #=> [2, 3]
+    #   [].butfirst #=> nil
+    def butfirst
       self[1..-1]
     end
   end
