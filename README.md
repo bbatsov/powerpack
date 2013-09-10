@@ -3,7 +3,7 @@
 
 # Powerpack
 
-Powerpack offers some useful extensions to the standard Ruby classes (kind of like `ActiveSupport`, but less ambitious).
+Powerpack offers some useful extensions to the standard Ruby classes (kind of like `ActiveSupport`, but less ambitious and more modular).
 
 ## Installation
 
@@ -39,6 +39,12 @@ Or install it yourself as:
 * [Numeric](http://rdoc.info/github/bbatsov/powerpack/Numeric)
     * [#pos?](http://rdoc.info/github/bbatsov/powerpack/Numeric#pos?-instance_method)
     * [#neg?](http://rdoc.info/github/bbatsov/powerpack/Numeric#neg?-instance_method)
+    * [#hundred](http://rdoc.info/github/bbatsov/powerpack/Numeric#hundred-instance_method)
+    * [#thousand](http://rdoc.info/github/bbatsov/powerpack/Numeric#thousand-instance_method)
+    * [#million](http://rdoc.info/github/bbatsov/powerpack/Numeric#million-instance_method)
+    * [#billion](http://rdoc.info/github/bbatsov/powerpack/Numeric#billion-instance_method)
+    * [#trillion](http://rdoc.info/github/bbatsov/powerpack/Numeric#trillion-instance_method)
+    * [#quadrillion](http://rdoc.info/github/bbatsov/powerpack/Numeric#quadrillion-instance_method)
 * [String](http://rdoc.info/github/bbatsov/powerpack/String)
     * [#blank?](http://rdoc.info/github/bbatsov/powerpack/String#blank?-instance_method)
     * [#format](http://rdoc.info/github/bbatsov/powerpack/String#format-instance_method)
