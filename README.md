@@ -72,6 +72,10 @@ To load only a specific extension like `String#format` do:
 require 'powerpack/string/format'
 ```
 
+## Changelog
+
+Powerpack's changelog is available [here](CHANGELOG.md).
+
 ## Contributing
 
 1. Fork it
