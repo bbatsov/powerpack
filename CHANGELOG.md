@@ -6,6 +6,12 @@
 
 * Added `Enumerable#exactly?`
 * Added `Enumerable#average`
+* Added `Numeric#hundred`
+* Added `Numeric#thousand`
+* Added `Numeric#million`
+* Added `Numeric#billion`
+* Added `Numeric#trillion`
+* Added `Numeric#quadrillion`
 
 ### Changes
 
