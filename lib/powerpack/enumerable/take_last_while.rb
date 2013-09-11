@@ -10,11 +10,7 @@ unless Enumerable.method_defined? :take_last_while?
       return to_enum(:take_last_while) unless block_given?
 
       result = []
-      reverse_each do |elem|
-        return result unless yield(elem)
-        result.unshift(elem)
-      end
-
+      reverse_each { |elem| yield(elem) ? result.unshift(elem) : break  }
       result
     end
   end
