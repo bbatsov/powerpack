@@ -2,6 +2,8 @@
 
 ## master (unreleased)
 
+## 0.0.8 (13/09/2013)
+
 ### New features
 
 * Added `Enumerable#exactly?`
