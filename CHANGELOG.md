@@ -2,6 +2,9 @@
 
 ## master (unreleased)
 
+* Added `String#ascii_only`
+* Added `String#ascii_only!`
+
 ## 0.0.8 (13/09/2013)
 
 ### New features
