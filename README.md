@@ -46,6 +46,8 @@ Or install it yourself as:
     * [#trillion](http://rdoc.info/github/bbatsov/powerpack/Numeric#trillion-instance_method)
     * [#quadrillion](http://rdoc.info/github/bbatsov/powerpack/Numeric#quadrillion-instance_method)
 * [String](http://rdoc.info/github/bbatsov/powerpack/String)
+    * [#ascii_only](http://rdoc.info/github/bbatsov/powerpack/String#ascii_only-instance_method)
+    * [#ascii_only!](http://rdoc.info/github/bbatsov/powerpack/String#ascii_only!-instance_method)
     * [#blank?](http://rdoc.info/github/bbatsov/powerpack/String#blank?-instance_method)
     * [#format](http://rdoc.info/github/bbatsov/powerpack/String#format-instance_method)
     * [#strip_indent](http://rdoc.info/github/bbatsov/powerpack/String#strip_indent-instance_method)
