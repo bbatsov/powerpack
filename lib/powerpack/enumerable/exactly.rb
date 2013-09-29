@@ -25,12 +25,14 @@ unless Enumerable.method_defined? :exactly?
         each do |*o|
           if yield(*o)
             found_count += 1
+            return false if found_count > n
           end
         end
       else
         each do |o|
           if o
             found_count += 1
+            return false if found_count > n
           end
         end
       end
