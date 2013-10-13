@@ -2,6 +2,8 @@
 
 ## master (unreleased)
 
+* Added `String#remove`
+* Added `String#remove!`
 * Added `String#ascii_only`
 * Added `String#ascii_only!`
 

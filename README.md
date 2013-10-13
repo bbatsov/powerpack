@@ -50,6 +50,8 @@ Or install it yourself as:
     * [#ascii_only!](http://rdoc.info/github/bbatsov/powerpack/String#ascii_only!-instance_method)
     * [#blank?](http://rdoc.info/github/bbatsov/powerpack/String#blank?-instance_method)
     * [#format](http://rdoc.info/github/bbatsov/powerpack/String#format-instance_method)
+    * [#remove](http://rdoc.info/github/bbatsov/powerpack/String#remove-instance_method)
+    * [#remove!](http://rdoc.info/github/bbatsov/powerpack/String#remove!-instance_method)
     * [#strip_indent](http://rdoc.info/github/bbatsov/powerpack/String#strip_indent-instance_method)
     * [#strip_margin](http://rdoc.info/github/bbatsov/powerpack/String#strip_margin-instance_method)
     * [#squish](http://rdoc.info/github/bbatsov/powerpack/String#squish-instance_method)
