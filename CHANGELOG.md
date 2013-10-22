@@ -2,6 +2,8 @@
 
 ## master (unreleased)
 
+## 0.0.9 (22/10/2013)
+
 * Added `String#remove`
 * Added `String#remove!`
 * Added `String#ascii_only`
