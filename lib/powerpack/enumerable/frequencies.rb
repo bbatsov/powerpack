@@ -1,6 +1,6 @@
 unless Enumerable.method_defined? :frequencies
   module Enumerable
-    # Counts the number of ocurrence of items in the enumberable.
+    # Counts the number of occurrence of items in the enumerable.
     #
     # @return [Hash] in the format value => count
     #
