@@ -2,6 +2,10 @@
 
 ## master (unreleased)
 
+## 0.1.1 (04/05/2015)
+
+No user-visible changes.
+
 ## 0.1.0 (25/01/2015)
 
 * Added `String#remove_prefix`
