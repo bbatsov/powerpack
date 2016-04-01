@@ -2,25 +2,25 @@
 
 ## master (unreleased)
 
-## 0.1.1 (04/05/2015)
+## 0.1.1 (2015-05-04)
 
 No user-visible changes.
 
-## 0.1.0 (25/01/2015)
+## 0.1.0 (2015-01-25)
 
 * Added `String#remove_prefix`
 * Added `String#remove_prefix!`
 * Added `String#remove_suffix`
 * Added `String#remove_suffix!`
 
-## 0.0.9 (22/10/2013)
+## 0.0.9 (2013-10-22)
 
 * Added `String#remove`
 * Added `String#remove!`
 * Added `String#ascii_only`
 * Added `String#ascii_only!`
 
-## 0.0.8 (13/09/2013)
+## 0.0.8 (2013-09-13)
 
 ### New features
 
