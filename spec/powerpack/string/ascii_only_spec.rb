@@ -2,7 +2,7 @@
 
 require 'spec_helper'
 
-unless defined?(RUBY_ENGINE) && RUBY_ENGINE == 'jruby'
+unless String.method_defined? :ascii_only || defined?(RUBY_ENGINE) && RUBY_ENGINE == 'jruby'
   describe 'String#ascii_only' do
     it 'returns same value for string with ASCII chars only' do
       expect('abc'.ascii_only).to eq 'abc'

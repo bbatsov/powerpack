@@ -12,10 +12,9 @@ unless Enumerable.method_defined? :sum
     #   [1, 2, 3].sum #=> 6
     #   ["a", "b", "c"].sum #=> "abc"
     #   [[1], [2], [3]].sum #=> [1, 2, 3]
-    #   [].sum #=> nil
-    #   [].sum(0) #=> 0
-    def sum(default = nil)
-      reduce(&:+) || default
+    #   [].sum #=> 0
+    def sum
+      reduce(&:+) || 0
     end
   end
 end
