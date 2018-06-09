@@ -18,6 +18,7 @@ unless String.method_defined? :remove_suffix
     #   'Ladies Night'.remove_suffix!(' Night') #=> 'Ladies'
     def remove_suffix!(pattern)
       gsub!(/#{pattern}\z/, '')
+      self
     end
   end
 end
