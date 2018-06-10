@@ -3,7 +3,15 @@
 
 # Powerpack
 
-Powerpack offers some useful extensions to the standard Ruby classes (kind of like `ActiveSupport`, but less ambitious and more modular).
+Powerpack offers some useful extensions to the standard Ruby classes
+(kind of like `ActiveSupport`, but less ambitious and more modular).
+
+The project has several design goals:
+
+* **minimalistic** - we don't add every possible extensions, we focus only
+  on the stuff that are commonly requested and would be often useful in practice
+* **modular** - all extensions can be loaded individually (often they are just individual methods)
+* **safe** - you can't end up accidentally overriding some existing method definition with Powerpack's extensions
 
 ## Installation
 
