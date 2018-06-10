@@ -14,7 +14,7 @@ unless String.method_defined? :format
     # @example
     #   '%d + %d'.format([1, 2]) #=> '1 + 2'
     def format(*args)
-      super(self, *(args.flatten(1)))
+      super(self, *args.flatten(1))
     end
   end
 end
