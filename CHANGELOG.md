@@ -5,9 +5,9 @@
 ## 0.1.2 (2018-06-10)
 
 * Changed `String#remove_prefix` to return the original string if the parameter is not a prefix.
-+* Changed `String#remove_prefix!`to return the original string if the parameter is not a prefix.
-+* Changed `String#remove_suffix` to return the original string if the parameter is not a suffix.
-+* Changed `String#remove_suffix!` to return the original string if the parameter is not a suffix.
+* Changed `String#remove_prefix!`to return the original string if the parameter is not a prefix.
+* Changed `String#remove_suffix` to return the original string if the parameter is not a suffix.
+* Changed `String#remove_suffix!` to return the original string if the parameter is not a suffix.
 
 ## 0.1.1 (2015-05-04)
 
