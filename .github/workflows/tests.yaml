@@ -1,0 +1,62 @@
+name: Tests
+
+on:
+  pull_request:
+    branches:
+      - master
+    paths-ignore:
+      - 'README.md'
+  push:
+    branches:
+      - master
+    paths-ignore:
+      - 'README.md'
+
+jobs:
+  unit_tests:
+    name: Unit Tests
+    if: "contains(github.event.commits[0].message, '[ci skip]') == false"
+    strategy:
+      fail-fast: false
+      matrix:
+        os:
+          - ubuntu
+        ruby:
+          - jruby-9.1.13.0
+          - 2.3
+          - 2.4
+          - 2.5
+          - 2.6
+          - 2.7
+          - ruby-head
+          - rbx-3
+        allow_failures:
+          - false
+#        include:
+#          - os: ubuntu
+#            ruby: ruby-head
+#            gemfile: gemfiles/contracts_16_0.gemfile
+#            allow_failures: true
+    env:
+      BUNDLE_PATH:    "./vendor/bundle"
+      ALLOW_FAILURES: "${{ matrix.allow_failures }}"
+    runs-on: ${{ matrix.os }}-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+      - name: Setup Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: ${{ matrix.ruby }}
+      - uses: actions/cache@v2
+        with:
+          path: vendor/bundle
+          key: ${{ runner.os }}-gems-${{ matrix.ruby }}-${{ github.ref }}-${{ github.sha }}
+          restore-keys: |
+            ${{ runner.os }}-gems--${{ matrix.ruby }}-${{ github.ref }}-
+            ${{ runner.os }}-gems--${{ matrix.ruby }}-
+      - name: Bundle Install
+        run: |
+          bundle install --jobs 4 --retry 3
+      - name: Test
+        run: bundle exec rspec || $ALLOW_FAILURES
