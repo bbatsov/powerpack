@@ -2,6 +2,10 @@
 
 ## master (unreleased)
 
+## 0.1.3 (2020-11-16)
+
+* [#42](https://github.com/bbatsov/powerpack/pull/42): Fix a warning on Ruby 2.7.
+
 ## 0.1.2 (2018-06-10)
 
 * Changed `String#remove_prefix` to return the original string if the parameter is not a prefix.
