@@ -1,5 +1,5 @@
 [![Gem Version](https://badge.fury.io/rb/powerpack.svg)](http://badge.fury.io/rb/powerpack)
-[![Build Status](https://travis-ci.org/bbatsov/powerpack.svg?branch=master)](https://travis-ci.org/bbatsov/powerpack)
+[![CI Status](https://github.com/bbatsov/powerpack/workflows/Tests/badge.svg?branch=master)](https://github.com/bbatsov/powerpack/actions?query=workflow%3ATests)
 
 # Powerpack
 
