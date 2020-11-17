@@ -37,7 +37,6 @@ jobs:
 #            gemfile: gemfiles/contracts_16_0.gemfile
 #            allow_failures: true
     env:
-      BUNDLE_PATH:    "./vendor/bundle"
       ALLOW_FAILURES: "${{ matrix.allow_failures }}"
     runs-on: ${{ matrix.os }}-latest
     steps:
@@ -47,15 +46,6 @@ jobs:
         uses: ruby/setup-ruby@v1
         with:
           ruby-version: ${{ matrix.ruby }}
-      - uses: actions/cache@v2
-        with:
-          path: vendor/bundle
-          key: ${{ runner.os }}-gems-${{ matrix.ruby }}-${{ github.ref }}-${{ github.sha }}
-          restore-keys: |
-            ${{ runner.os }}-gems--${{ matrix.ruby }}-${{ github.ref }}-
-            ${{ runner.os }}-gems--${{ matrix.ruby }}-
-      - name: Bundle Install
-        run: |
-          bundle install --jobs 4 --retry 3
+          bundler-cache: true
       - name: Test
         run: bundle exec rspec || $ALLOW_FAILURES
