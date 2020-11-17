@@ -11,6 +11,6 @@ Before submitting the PR make sure the following are checked:
 * [ ] Feature branch is up-to-date with `master` (if not - rebase it).
 * [ ] Squashed related commits together.
 * [ ] Added tests.
-* [ ] Added an entry to the [changelog](https://github.com/rubocop-hq/rubocop/blob/master/CHANGELOG.md/), if the new code introduces user-observable changes.
+* [ ] Added an entry to the [changelog](https://github.com/bbatsov/powerpack/blob/master/CHANGELOG.md), if the new code introduces user-observable changes.
 
 [1]: https://chris.beams.io/posts/git-commit/
