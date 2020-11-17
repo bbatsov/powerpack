@@ -4,9 +4,13 @@
 
 ## 0.1.3 (2020-11-16)
 
+### Bugs fixed
+
 * [#42](https://github.com/bbatsov/powerpack/pull/42): Fix a warning on Ruby 2.7.
 
 ## 0.1.2 (2018-06-10)
+
+### Changes
 
 * Changed `String#remove_prefix` to return the original string if the parameter is not a prefix.
 * Changed `String#remove_prefix!`to return the original string if the parameter is not a prefix.
@@ -19,12 +23,16 @@ No user-visible changes.
 
 ## 0.1.0 (2015-01-25)
 
+### New features
+
 * Added `String#remove_prefix`
 * Added `String#remove_prefix!`
 * Added `String#remove_suffix`
 * Added `String#remove_suffix!`
 
 ## 0.0.9 (2013-10-22)
+
+### New features
 
 * Added `String#remove`
 * Added `String#remove!`
